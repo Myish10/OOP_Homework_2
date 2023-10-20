@@ -39,7 +39,6 @@ public class Cat {
             System.out.printf("%s наелся\n", name);
         }
         else if (plate.getFood()< appetite && !fullness){
-            fullness = false;
             System.out.printf("Еды слишком мало, %s остался голодным\n", name);
         }
         else {
